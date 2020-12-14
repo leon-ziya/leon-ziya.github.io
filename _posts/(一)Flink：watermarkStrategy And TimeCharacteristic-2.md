@@ -1,3 +1,18 @@
+---
+layout:     post
+title:      Flink-自学笔记
+subtitle:   水印和时间特征-2
+date:       2020-12-14
+author:     子崖
+header-img: img/parker-5.jpg
+catalog: 	 true
+tags:
+    - flink
+    - watermark
+    - timeCharacteristic
+---
+
+
 # (一)Flink：watermarkStrategy And TimeCharacteristic-2
 
 ## watermark的使用
