@@ -99,7 +99,8 @@ layout: default
                     owner: '{{site.gitalk.owner}}',
                     admin: ['{{site.gitalk.admin}}'],
                     distractionFreeMode: {{site.gitalk.distractionFreeMode}},
-                    id: md5(location.pathname),
+                    id: window.location.pathname
+                    //id: md5(location.pathname),
                     });
                     gitalk.render('gitalk-container');
                 </script>
@@ -114,7 +115,7 @@ layout: default
                 <!-- disqus 评论框 end -->
                 {% endif %}
 
-            </div>  
+            </div>
 
     <!-- Side Catalog Container -->
         {% if page.catalog %}
