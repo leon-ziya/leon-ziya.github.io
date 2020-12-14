@@ -4,7 +4,7 @@ title:      Flink-自学笔记
 subtitle:   水印和时间特征-1
 date:       2020-12-14
 author:     子崖
-header-img: img/parker-5.jpg
+header-img: img/post-bg-ios10.jpg
 catalog: 	 true
 tags:
     - flink
