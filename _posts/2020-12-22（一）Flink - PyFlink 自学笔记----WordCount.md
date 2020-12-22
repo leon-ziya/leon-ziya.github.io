@@ -1,3 +1,17 @@
+---
+layout:     post
+title:      PyFlink-自学笔记
+subtitle:    WordCount-Blink批处理
+date:       2020-12-22
+author:     子崖
+header-img: img/post-bg-ios10.jpg
+catalog: 	 true
+tags:
+    - pyflink
+    - Blink
+    - SQL API
+---
+
 # （一）Flink - PyFlink 自学笔记----WordCount
 
 ## 使用PyFlink进行批处理----WordCount
