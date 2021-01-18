@@ -21,6 +21,8 @@ tags:
 3. map: HashMap类型， 主要存放最终的数据
 4. PRESENT： 是所有写入map的Value值
 
+**HashSet底层就是基于HashMap实现的，将数据存储打HashMap中，value一律是PRESENT==null，从而实现在key中存储不重复的数据。**
+
 ## 构造函数
 
 ```java

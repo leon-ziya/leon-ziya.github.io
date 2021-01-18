@@ -25,7 +25,7 @@ public class LinkedList<E>   extends AbstractSequentialList<E>
     implements List<E>, Deque<E>, Cloneable, java.io.Serializable
 ```
 
-![](/home/jianglai/图片/Flink/java-linkedList.png)
+![](../img/java-linkedList.png)
 
 1. LinkedList集合实现了Cloneable接口和Serializable接口, 分别用来支持克隆以及支持序列化
 2. LinkedList集合实现了一个Deque接口，这是一个双向队列接口，双向队列就是两端口都可以进行增加和删除操作
@@ -62,7 +62,7 @@ private static class Node<E> {
     }
 ```
 
-![](/home/jianglai/图片/Flink/java-linkeList-stract.png)
+![](../img/java-linkeList-stract.png)
 
 上图中LinkedList是四个元素，有4个Node对象组成，size=4, head指向地一个elementA, tail指向最后一个节点elementD
 

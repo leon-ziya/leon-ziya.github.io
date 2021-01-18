@@ -45,7 +45,7 @@ tags:
 ### 验证
 
 分别去hadoop目录下查看data下的data相关的目录中current中的VERSION是否相同
-![](/img/linux01-datanode-version.png)
+![](../img/linux01-datanode-version.png)
 
 这是我的节点一中的data相关的VERSION内容，由于我的上述误操作，导致集群节点都是一样的
 
